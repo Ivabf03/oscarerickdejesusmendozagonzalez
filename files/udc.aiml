@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  
+
+<category><pattern>Hola</pattern><template><srai>HOLA</srai></template></category>
+
+
+<category>
+    <pattern>Hola</pattern>
+    <template>
+        <random>
+            <li> Hola </li>
+            <li> Hola soy Oscar Erick de Jesús Mendoza Gonzalez </li>
+            <li> Que tal como te va </li>
+        </random>
+         </template>
+ </category>
+<category>
+    
+    <pattern>*</pattern>
+    <template>
+        <random>
+           <li> No entendí, vuelve a escribir </li> 
+            <li> No puedo responder a eso </li>
+            <li> Hablar de eso me pone mal </li>
+        </random>
+        
+        
+    </template>
+</category>
+
+<category>
+    <pattern>Quien y cuando presento el primer trabajo de IA</pattern>
+    <template>Warren McCulloch y Walter Pitts en 1943</template>
+</category>
+<category>
+    <pattern>Cómo se llamó el articulo que presentó McCarthy en 1958</pattern>
+    <template>Programs with common sense</template>
+</category>
+<category>
+    <pattern>Quién financió la traducción de documentos después de lanzarse el Sputnik 1 en 1957</pattern>
+    <template>El consejo Nacional de Investigación de EE.UU</template>
+</category>
+<category>
+    <pattern>Dónde y cuando se desarrollo el programa DENDRAL</pattern>
+    <template>Se desarrollo en la universidad de Stanford en 1969</template>
+</category>
+<category>
+    <pattern>Cuáles  fueron las obras más influyentes en la década de los ochentas</pattern>
+    <template>El artículo de Hopfield y el libro de Rumelhart y McClelland</template>
+</category>
+<category>
+    <pattern>Cuáles son las 3 técnicas principales que combina la computación evolutiva</pattern>
+    <template>Algoritmos genéticos
+estrategias evolutivas y programación genética</template>
+</category>
+<category>
+    <pattern>Quién es el tercer fundador de la IA y en qué proyecto ayudo a la Universidad de Pennsylvania</pattern>
+    <template>John von Neumann </template>
+</category>
+<category>
+    <pattern>Qué teorema comprobó Frank Rosenblatt, siguiendo los pasos McCulloch y Pitts</pattern>
+    <template>Teorema de Convergencia de Perceptrón</template>
+</category>
+<category>
+    <pattern>Defina el método que se usaba en los 60s para resolver problemas con IA </pattern>
+    <template>Los programas aplicaban una estrategia de búsqueda  usando combinaciones en pequeños pasos hasta encontrar la correcta </template>
+</category>
+<category>
+    <pattern>Cuáles son los proyectos que apoyaron la NASA y la Universidad de Stanford como revolución de máquinas inteligentes</pattern>
+    <template>DENDRAL , MYCIN, PROSPECTOR</template>
+</category>
+<category>
+    <pattern>Qué nuevo principio de autoorganizacion establecio Grossberg</pattern>
+    <template>Adaptative Resonance Theory</template>
+</category>
+<category>
+    <pattern>Cuáles son los dos programas basados en genetica que tuvieron un gran apoyo con la IA</pattern>
+    <template> Genetic algorithms and genetic programming</template>
+</category>
+<category>
+    <pattern>Qué tiene que ver el ajedrez con el desarrollo de IA</pattern>
+    <template>Un juego típico de ajedrez toma alrededor de  10E120 movimientos posibles, una máquina del tupo  Von Neumann que pueda examinar un movimiento por micro segundo necesitaría alrededor de 3*10E106 años para tomar su primer movimiento posible. He ahí donde Shannon demostró que se necesita la heurística para buscar la solución</template>
+</category>
+<category>
+    <pattern>Por qué abandonaron el proyecto del GPS</pattern>
+    <template>No podía resolver problemas complicados, requería una gran cantidad de tiempo y memoria del computador, así como formular un infinito número de operaciones ineficientes</template>
+</category>
+<category>
+    <pattern>Qué es un problema NP</pattern>
+    <template>Un problema se llama NP si su solución (si existe) de puede adivinar y verificar en tiempo polinomial; no determinista significa que no sigue ningún algoritmo en particular para realizar la conjetura</template>
+</category>
+<category>
+    <pattern>Cuál fue la clave del éxito de DENDRAL</pattern>
+    <template>La clave de su éxito fue mapear todo el conocimiento teórico relevante desde su forma general hasta reglas muy específicas</template>
+</category>
+<category>
+    <pattern>Menciona a un investigadores y sus respectivas contribuciones de los años 80s </pattern>
+    <template>Grossberg estableció un nuevo principio de autoorganización (teoría de la resonancia adaptativa</template>
+</category>
+<category>
+    <pattern>Menciona una técnica de la computación evolutiva y en qué se basan</pattern>
+    <template>
+        <random>
+            <li> algoritmos genéticos; se basó en un algoritmo para manipular "cromosomas" artificiales (cadenas de dígitos binarios), utilizando operaciones genéticas como la selección, el cruce y la mutación </li>
+            <li> estrategias evolutivas; utilizan un procedimiento de optimización numérica, similar a una búsqueda de Monte Carlo enfocada </li>
+            <li> programación genética; Su objetivo es desarrollar no una representación codificada de algún problema, sino más bien un código de computadora que resuelve el problema </li>
+        </random>
+    </template>
+</category>
+<category>
+    <pattern>Qué demostraron Mc culloch y WalterPitts con su modelo de redes neuronales</pattern>
+    <template>Se postuló que cada neurona podía ser visto como un modelo binario y que su modelo era eqyuivalente a la máquina de turing </template>
+</category>
+<category>
+    <pattern>Qué programa en el campo de la IA propuso McCarthy y que buscaba resolver dicho programa</pattern>
+    <template>propuso un programa llamado Advice Taker para buscar soluciones a 
+problemas del mundo  El programa podría generar, por ejemplo, un plan para conducir hasta el aeropuerto, basado en 
+algunos axiomas simples. Más importante aún, el programa fue diseñado para aceptar nuevos 
+axiomas, o en otras palabras, nuevos conocimientos </template>
+</category>
+<category>
+    <pattern>Cuáles fueron las principales dificultades para el desarrollo de la IA en 1960</pattern>
+    <template>
+        <random>
+            <li>los investigadores de IA estaban desarrollando métodos generales para clases amplias 
+problemas, los primeros programas contenían poco o ningún conocimiento sobre un 
+dominio del problema </li>
+<li>Muchos de los problemas que la IA intentó resolver eran demasiado amplios y 
+difíciles</li>
+        </random>
+    </template>
+</category>
+<category>
+    <pattern>Qué cambios marcó el software dendral en el campo de la IA</pattern>
+    <template>El objetivo del proyecto era desarrollar un programa informático para alcanzar el nivel del desempeño de un químico humano experimentado. 
+
+ 
+
+un cambio de métodos débiles, con escaso conocimiento y de propósito general, a técnicas intensivas en conocimiento y de dominio específico 
+
+originó la idea fundamental de la nueva metodología de sistemas expertos - ingeniería del conocimiento, que englobaba 
+técnicas de captura, análisis y expresión en reglas de un experto</template>
+</category>
+<category>
+    <pattern>Cuáles fueron los principales auges que tuvieron lugar en la década de los 80´s en el campo de la IA</pattern>
+    <template>rossberg estableció un 
+nuevo principio de autoorganización (teoría de la resonancia adaptativa), que proporcionó la base de una nueva clase de redes neuronales  
+
+ 
+
+Hopfield 
+introdujo redes neuronales con retroalimentación: redes Hopfield, que atrajeron 
+mucha atención en la década de 1980  
+
+Kohonen publicó un artículo sobre 
+mapas autoorganizados 
+
+ 
+
+el verdadero avance se produjo en 1986 cuando la retropropagación 
+algoritmo de aprendizaje, introducido por primera vez por Bryson y Ho </template>
+</category>
+<category>
+    <pattern>Cuáles son las tres principales etapas que combina la computación evolutiva</pattern>
+    <template>algoritmos genéticos, estrategias evolutivas y programación genética</template>
+</category>
+<category>
+    <pattern>Por qué no es correcto el modelo binario de la red neuronal</pattern>
+    <template> ya que una neurona tiene un comportamiento no lineal, es por esto que no puede tener 2 estados </template>
+</category>
+<category>
+    <pattern>Qué demuestre el teorema de convergencia del perceptron</pattern>
+    <template>demuestra que el algoritmo puede ajustar una conexión mas fuerte con el perceptron</template>
+</category>
+<category>
+    <pattern>Por qué el tiempo polinomial es ineficiente</pattern>
+    <template>Porque su tiempo de ejecucion crece al momento de que el tamaño del problema crece rapidamente </template>
+</category>
+<category>
+    <pattern>Qué es el DENDRAL</pattern>
+    <template>Es un sistema que podia mapear todo el conocimiento teorico relevante desde un nivel general a un nivel especifico </template>
+</category>
+<category>
+    <pattern>Cuál es la teoria de resonancia adaptativa</pattern>
+    <template>Esta proveee, lo basico de una una clase de red neuronal </template>
+</category>
+<category>
+    <pattern>Qué es el algoritmo genetico</pattern>
+    <template>Es un algoritmo para la manipulacion artificial de cromosomas usando operaciones geneticas como selección, curce y mutacion, este algoritmo es robusto y confiable para soluciones con un alto grado de complejidad</template>
+</category>
+</aiml>
